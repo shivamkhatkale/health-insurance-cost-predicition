@@ -39,7 +39,7 @@ def show_entry():
 master = Tk()
 master.geometry('500x560')
 master.configure(bg="light green")
-master.title("Health Insaurance Prediction")
+master.title("Health Insurance Prediction")
 # VARIABLES USED FOR RESET FUNCTION
 global p_1
 global p_2
@@ -56,7 +56,7 @@ p_4 = StringVar()
 p_5 = StringVar()
 p_6 = StringVar()
 
-label_0 = Label(master, text="Health Insaurance Prediction",font=("bold", 20),justify = "center", bg = "white", fg = "black").place(x=80,y=10)
+label_0 = Label(master, text="Health Insurance Prediction",font=("bold", 20),justify = "center", bg = "white", fg = "black").place(x=80,y=10)
 
 label_1 = Label(master, text="Enter Age",font=("bold", 10),bg="light green").place(x=50,y=80)
 e1 = Entry(master, width=50, textvariable = p_1)
